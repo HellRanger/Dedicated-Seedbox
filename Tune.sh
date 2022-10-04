@@ -19,7 +19,7 @@ if [[ $distro_codename != buster ]] && [[ $distro_codename != bullseye ]] ; then
 fi
 
 while true; do
-    source <(wget -qO- https://raw.githubusercontent.com/jerry048/Seedbox-Components/main/tweaking.sh)
+    source <(wget -qO- https://raw.githubusercontent.com/hellranger/Seedbox-Components/main/tweaking.sh)
     normal_3; options=("Deluge Tuning" "Tweaked BBR Install" "System Tuning" "Configure Boot Script")
     select opt in "${options[@]}"
     do
